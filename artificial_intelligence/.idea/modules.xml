@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/artificial_intelligence.iml" filepath="$PROJECT_DIR$/.idea/artificial_intelligence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../competitive/.idea/competitive.iml" filepath="$PROJECT_DIR$/../competitive/.idea/competitive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cryptography/.idea/cryptography.iml" filepath="$PROJECT_DIR$/../cryptography/.idea/cryptography.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../edabit/.idea/edabit.iml" filepath="$PROJECT_DIR$/../edabit/.idea/edabit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../games/.idea/games.iml" filepath="$PROJECT_DIR$/../games/.idea/games.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../informatics/.idea/informatics.iml" filepath="$PROJECT_DIR$/../informatics/.idea/informatics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../maths/.idea/maths.iml" filepath="$PROJECT_DIR$/../maths/.idea/maths.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../others/.idea/others.iml" filepath="$PROJECT_DIR$/../others/.idea/others.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../physics/.idea/physics.iml" filepath="$PROJECT_DIR$/../physics/.idea/physics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../plots/.idea/plots.iml" filepath="$PROJECT_DIR$/../plots/.idea/plots.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../useful/.idea/useful.iml" filepath="$PROJECT_DIR$/../useful/.idea/useful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../videos/.idea/videos.iml" filepath="$PROJECT_DIR$/../videos/.idea/videos.iml" />
+    </modules>
+  </component>
+</project>

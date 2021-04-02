@@ -1,0 +1,209 @@
+1617127393764	geckodriver	INFO	Listening on 127.0.0.1:49133
+1617127393768	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1U6xaE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617127396297	Marionette	INFO	Listening on port 37815
+1617127396399	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://e-maxx-eng.github.io/e-maxx-eng/js/jq.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1617127500965	FirefoxAccounts	ERROR	FxA rejecting with error UNVERIFIED_ACCOUNT, details: undefined
+console.info: "Skipping device list refresh; not signed in"
+1617127500967	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1787:18) JS Stack trace: _error@FxAccounts.jsm:1787:18
+withVerifiedAccountState/<@FxAccounts.jsm:805:20
+1617127500968	FirefoxAccounts	ERROR	FxA rejecting with error UNVERIFIED_ACCOUNT, details: undefined
+1617127500968	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1787:18) JS Stack trace: _error@FxAccounts.jsm:1787:18
+withVerifiedAccountState/<@FxAccounts.jsm:805:20
+1617127501542	FirefoxAccounts	ERROR	FxA rejecting with error UNVERIFIED_ACCOUNT, details: undefined
+1617127501544	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1787:18) JS Stack trace: _error@FxAccounts.jsm:1787:18
+withVerifiedAccountState/<@FxAccounts.jsm:805:20
+1617127501544	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1787:18) JS Stack trace: _error@FxAccounts.jsm:1787:18
+withVerifiedAccountState/<@FxAccounts.jsm:805:20
+1617127501544	FirefoxAccounts	ERROR	Background refresh of initial profile failed: Error: UNVERIFIED_ACCOUNT(resource://gre/modules/FxAccounts.jsm:1787:18) JS Stack trace: _error@FxAccounts.jsm:1787:18
+withVerifiedAccountState/<@FxAccounts.jsm:805:20
+console.info: "Skipping device list refresh; not signed in"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.firefox.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 125: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://accounts.firefox.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 125: TypeError: gRecipeManager is null
+Extension error: TypeError: e.config.oldValue is undefined moz-extension://bfd9ac87-41c3-4437-b497-c067d9a5833e/background.js 2130
+[[Exception stack
+getInnerKeysChanged/<@moz-extension://bfd9ac87-41c3-4437-b497-c067d9a5833e/background.js:2130:428588
+getInnerKeysChanged@moz-extension://bfd9ac87-41c3-4437-b497-c067d9a5833e/background.js:2130:428576
+listenToConfigChanges/<@moz-extension://bfd9ac87-41c3-4437-b497-c067d9a5833e/background.js:2130:449747
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+fire@resource://gre/modules/ExtensionChild.jsm:806:37
+recvRunListener@resource://gre/modules/ExtensionChild.jsm:810:13
+_recv@resource://gre/modules/ConduitsChild.jsm:78:20
+receiveMessage@resource://gre/modules/ConduitsChild.jsm:184:20
+]]
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+loadURI@resource://gre/modules/RemoteWebNavigation.jsm:88:51
+loadURI/<@chrome://global/content/elements/browser-custom-element.js:835:28
+_wrapURIChangeCall@chrome://global/content/elements/browser-custom-element.js:766:9
+loadURI@chrome://global/content/elements/browser-custom-element.js:834:12
+loadURI@chrome://mozapps/content/extensions/aboutaddons.js:2450:18
+render/<@chrome://mozapps/content/extensions/aboutaddons.js:2429:14
+render@chrome://mozapps/content/extensions/aboutaddons.js:2388:11
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onStateChange@resource://gre/modules/WebNavigation.jsm:416:14
+receiveMessage@resource://gre/modules/WebNavigation.jsm:305:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onStateChange@resource://gre/modules/WebNavigation.jsm:416:14
+receiveMessage@resource://gre/modules/WebNavigation.jsm:305:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onStateChange@resource://gre/modules/WebNavigation.jsm:422:16
+receiveMessage@resource://gre/modules/WebNavigation.jsm:305:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onStateChange@resource://gre/modules/WebNavigation.jsm:422:16
+receiveMessage@resource://gre/modules/WebNavigation.jsm:305:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onStateChange@resource://gre/modules/WebNavigation.jsm:416:14
+receiveMessage@resource://gre/modules/WebNavigation.jsm:305:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onStateChange@resource://gre/modules/WebNavigation.jsm:416:14
+receiveMessage@resource://gre/modules/WebNavigation.jsm:305:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:436:10
+receiveMessage@resource://gre/modules/WebNavigation.jsm:309:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:436:10
+receiveMessage@resource://gre/modules/WebNavigation.jsm:309:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:436:10
+receiveMessage@resource://gre/modules/WebNavigation.jsm:309:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:436:10
+receiveMessage@resource://gre/modules/WebNavigation.jsm:309:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onDocumentChange@resource://gre/modules/WebNavigation.jsm:436:10
+receiveMessage@resource://gre/modules/WebNavigation.jsm:309:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onLoad@resource://gre/modules/WebNavigation.jsm:455:10
+receiveMessage@resource://gre/modules/WebNavigation.jsm:317:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onLoad@resource://gre/modules/WebNavigation.jsm:455:10
+receiveMessage@resource://gre/modules/WebNavigation.jsm:317:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onLoad@resource://gre/modules/WebNavigation.jsm:455:10
+receiveMessage@resource://gre/modules/WebNavigation.jsm:317:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onStateChange@resource://gre/modules/WebNavigation.jsm:419:16
+receiveMessage@resource://gre/modules/WebNavigation.jsm:305:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onStateChange@resource://gre/modules/WebNavigation.jsm:419:16
+receiveMessage@resource://gre/modules/WebNavigation.jsm:305:14
+WARNING: content window passed to PrivateBrowsingUtils.isWindowPrivate. Use isContentWindowPrivate instead (but only for frame scripts).
+pbu_isWindowPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:27:11
+isBrowserPrivate@resource://gre/modules/PrivateBrowsingUtils.jsm:47:19
+fire@resource://gre/modules/WebNavigation.jsm:481:30
+onStateChange@resource://gre/modules/WebNavigation.jsm:419:16
+receiveMessage@resource://gre/modules/WebNavigation.jsm:305:14
+Extension error: TypeError: t is undefined moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/purplebox.js 8
+[[Exception stack
+O@moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/purplebox.js:8:22847
+837/v/<@moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/purplebox.js:8:27639
+v@moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/purplebox.js:8:48052
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:622:13
+asyncWithoutClone/<@resource://gre/modules/ExtensionCommon.jsm:2432:39
+]]
+JavaScript error: moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/background.js, line 841: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/background.js, line 841: Error: Promised response from onMessage listener went out of scope
+JavaScript warning: moz-extension://59edd175-e7d9-4db3-86ae-9de4df12bdd8/background.js, line 0: Successfully compiled asm.js code (total compilation time 1ms)
+JavaScript error: undefined, line 0: Error: frame.state is undefined
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 10
+JavaScript error: undefined, line 0: Error: Invalid tab ID: 10
+1617127584879	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 74"  data: no] undefined 74
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:74:12
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:529:36
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:80:9
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:529:36
+]]
+JavaScript error: https://www.qwant.com/js/app.js?1616496475052, line 1: TypeError: b.indexOf is not a function
+Extension error: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIDOMWindowUtils.addSheet]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 74"  data: no] undefined 74
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:74:12
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:529:36
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:80:9
+inject/cssPromise<@resource://gre/modules/ExtensionContent.jsm:529:36
+]]
+JavaScript error: https://www.qwant.com/js/app.js?1616496475052, line 1: TypeError: b.indexOf is not a function
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://duckduckgo.com"
+JavaScript error: moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/background.js, line 841: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/background.js, line 841: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/background.js, line 841: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/background.js, line 841: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/background.js, line 841: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/background.js, line 841: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/background.js, line 841: Error: Promised response from onMessage listener went out of scope
+JavaScript error: moz-extension://9895f9af-ae08-48d6-8077-89bf90de7bb9/dist/background.js, line 841: Error: Promised response from onMessage listener went out of scope
+console.log: WebExtensions: reset-default-search: The default engine was already selected by the user.
+JavaScript error: resource://gre/modules/ConduitsChild.jsm, line 108: Error: sendRemoveListener on closed conduit {dd3d7613-0246-469d-bc65-2a3cc1668adc}.274877907094
+1617127913284	Marionette	INFO	Stopped listening on port 37815
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1617143848021	geckodriver	INFO	Listening on 127.0.0.1:33591
+1617143848026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZNnIjD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1617143850954	Marionette	INFO	Listening on port 45291
+1617143851065	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://e-maxx-eng.github.io/e-maxx-eng/js/jq.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://e-maxx-eng.github.io/e-maxx-eng/js/jq.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1617143876665	Marionette	INFO	Stopped listening on port 45291
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
