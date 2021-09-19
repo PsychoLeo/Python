@@ -7,6 +7,7 @@ def crible (n) :
     prime[0] = prime[1] = False
     for i in range (2, n) :
         if prime[i] :
+            nbOper += 1
             for j in range (2*i, n, i) :
                 nbOper += 1
                 prime[j] = False
